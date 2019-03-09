@@ -23,10 +23,10 @@ Vamos executá-lo.
 ```
 ### Instalando o firmware do MicroPython
 Depois de aberto a IDE selecione a porta de comunicação entre o computador e o ESP32. Vá em:
-> Tools/Serial/dev/ttyUSB0
+`Tools/Serial/dev/ttyUSB0`
 
 Agora iremos gravar o firmware. Portanto selecione:
-> Tools/BurnFirmware
+`Tools/BurnFirmware`
 
 Na janela que irá aparecer selecione:
 
