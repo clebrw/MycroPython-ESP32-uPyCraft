@@ -29,12 +29,13 @@ Agora iremos gravar o firmware. Portanto selecione:
 > Tools/BurnFirmware
 
 Na janela que irá aparecer selecione:
-> boards : esp32
-> burn_addr : 0x1000
-> erase_flash : enable
-> com : /dev/ttyUSB0
-> Firmware Choose : Users 
-> Selecione o firmware que pode ser baixado [**aqui**](https://github.com/clebrw/MycroPython-ESP32-uPyCraft/raw/master/esp32-20190125-v1.10.bin). Estou usando a versão V1.10 (jan-19).
+
+`boards : esp32`
+`burn_addr : 0x1000`
+`erase_flash : enable`
+`com : /dev/ttyUSB0`
+`Firmware Choose : Users`
+`Selecione o firmware` que pode ser baixado [**aqui**](https://github.com/clebrw/MycroPython-ESP32-uPyCraft/raw/master/esp32-20190125-v1.10.bin). Estou usando a versão V1.10 (jan-19).
 
 Para novas versões e possíveis atualizações: [**Acesse**.](http://micropython.org/download#esp32)
 
